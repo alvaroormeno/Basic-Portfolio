@@ -90,7 +90,35 @@ margin: 20px;
     
 }
 
+/* DIVISION FOR CONTACTS PAGE STYLE */
+/* DIVISION FOR CONTACTS PAGE STYLE */
+/* DIVISION FOR CONTACTS PAGE STYLE */
 
 
+input[type=text], textarea{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit]{
+    width: 90px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #4aaaa5;
+    background-color: #4aaaa5;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/*  STYLE TO MAKE VISITED LINKS HAVE THE ORIGINAL COLOR*/
+a.menulink:visited {
+color: #888888
+}
 
 
