@@ -34,11 +34,11 @@ body{
     vertical-align: middle;
     line-height: 80px;
     font-family: Arial, Helvetica, sans-serif;
-    color: #777777;
+    color: #888888;
 }
 
 .divider1 {
-    background-color: #777777;
+    background-color: #888888;
     width: 100%;
     height: 2px;
 }
@@ -50,10 +50,16 @@ body{
 
 .aboutme{
     background-color: white;
+    color: #888888;
     margin: auto;
-    width: 920px;
+    width: 919px;
     overflow: auto;
     padding: 20px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #888888;
+      /* TOTAL WIDTH OF ABOUT ME SECTION IS 960PX, WIDTH 919 + BORDER 1PX + BOTH PADDINGS L+R OF 20PX */
+
 
 }
 
