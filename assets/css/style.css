@@ -67,7 +67,7 @@ h2 {
     color: #4aaaa5;
 }
 
-img {
+img.indexpage {
 float: left;
 margin: 20px;
 }
@@ -120,5 +120,33 @@ input[type=submit]{
 a.menulink:visited {
 color: #888888
 }
+
+.imgcontainer {
+    position: relative;
+    text-align: center;
+    color: white;
+    width: 150px;
+    height: 150px;
+    
+
+}
+
+.centeredtext {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #4aaaa5;
+
+}
+
+.gridcontainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+}
+
 
 
