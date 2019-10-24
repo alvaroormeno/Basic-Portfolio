@@ -1,7 +1,11 @@
+body{
+    margin: 0px;
+}
+
 .header {
     background-color:white;
     width: 100%;
-    height: 100px;
+    height: 80px;
     text-align: center;
 }
 
@@ -10,7 +14,7 @@
     background-color: white;
     margin: auto;
     width: 960px;
-    height: 100px;
+    height: 80px;
 }
 
 .name {
@@ -20,28 +24,41 @@
     width: 300px;
     margin-right: auto;
     vertical-align: middle;
-    line-height: 100px;
+    line-height: 80px;
 }
 
 .m1, .m2, .m3 {
-    background-color: hotpink;
+    background-color: white;
     width: 100px;
-    height: 100px;
+    height: 80px;
     vertical-align: middle;
-    line-height: 100px;
+    line-height: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+}
+
+.divider1 {
+    background-color: #777777;
+    width: 100%;
+    height: 2px;
 }
 
 .mainbody {
-    background-color: rgb(252, 5, 239);
-    padding: 40px;
+    background-color: rgba(211, 211, 211, 0.884);
+    padding: 50px 50px 100px 50px;
 }
 
 .aboutme{
-    background-color: rgb(161, 12, 12);
+    background-color: white;
     margin: auto;
-    width: 960px;
+    width: 920px;
     overflow: auto;
+    padding: 20px;
 
+}
+
+h2 {
+    color: #4aaaa5;
 }
 
 img {
@@ -49,26 +66,25 @@ float: left;
 margin: 20px;
 }
 
-
-.footer {
-    background-color: lightsalmon;
+.divider2 {
+    background-color: #4aaaa5;
     width: 100%;
-    height: 80px;
+    height: 10px;
+}
+.footer {
+    background-color: #666666;
+    width: 100%;
+    height: 50px;
+    color: white;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    vertical-align: bottom;
+    line-height: 80px;
+    
 }
 
 
 
 
 
-
-
-clear: both;
-overflow: auto;
-margin: 0 auto;
-background: #46632c;
-color: #6f7f72;
-width: 960px;
-height: fit-content;
-margin-top: 20px;
-margin-bottom: 20px;
-padding: 20px;
